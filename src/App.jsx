@@ -1,6 +1,6 @@
 import { makeStyles } from "@mui/styles";
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
 import Home from "./Pages/Home/Home";
 
 const useStyles = makeStyles((theme) => ({
@@ -19,7 +19,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

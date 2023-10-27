@@ -96,13 +96,12 @@ const theme = createTheme({
 let appTheme = createTheme(theme);
 appTheme = responsiveFontSizes(appTheme);
 
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={appTheme}>
-            <App />
+        <App />
       </ThemeProvider>
     </StyledEngineProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
