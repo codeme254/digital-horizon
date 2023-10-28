@@ -3,6 +3,10 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles((theme) => ({
   cardMain: {
     borderBottom: `3px solid ${theme.palette.primary.main}`,
+    [theme.breakpoints.down("sm")]: {
+      width: "98%",
+      margin: theme.spacing(2, "auto"),
+    },
   },
   cardServiceCta: {
     textDecoration: "none",

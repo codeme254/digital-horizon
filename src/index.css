@@ -77,3 +77,18 @@ body {
   height: var(--size);
   fill: #03a9f4;
 }
+
+.form__image,
+.form__container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

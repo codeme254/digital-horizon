@@ -88,7 +88,7 @@ const theme = createTheme({
       fontWeight: 400,
     },
     button: {
-      fontSize: "0.938rem",
+      fontSize: "1.6rem",
     },
   },
 });

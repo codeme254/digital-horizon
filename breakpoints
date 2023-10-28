@@ -3,3 +3,18 @@ sm, small: 600px
 md, medium: 900px
 lg, large: 1200px
 xl, extra-large: 1536px
+
+
+<TextField
+              id="firstName"
+              label="first name"
+              variant="outlined"
+              required
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position="start">
+                    <AccountCircle />
+                  </InputAdornment>
+                ),
+              }}
+            />
