@@ -14,6 +14,7 @@ export default function About() {
         spacing={2}
         justifyContent="space-around"
         className={classes.aboutSection}
+        id="about"
       >
         <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
           <Typography align="center" variant="h3">

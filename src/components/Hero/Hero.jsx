@@ -30,6 +30,7 @@ function Hero() {
         autoplay: true,
         // interval: 4000,
       }}
+      id="home"
     >
       {items.map((item, i) => (
         <SplideSlide key={i}>

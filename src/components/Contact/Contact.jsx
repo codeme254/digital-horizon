@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <React.Fragment>
       <Title text="talk to us" />
-      <Box className={classes.contactsContainer}>
+      <Box element="div" id="contact" className={classes.contactsContainer}>
         <ContactElement
           icon={<EmailIcon />}
           contactType="send us an email"

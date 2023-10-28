@@ -10,18 +10,19 @@ import { useTheme } from "@mui/styles";
 import { Link } from "react-router-dom";
 import useStyles from "./Header.styles";
 import HeaderDrawer from "./HeaderDrawer";
+import scrollToSection from "../../utils/scroll";
 
 const Header = () => {
   const classes = useStyles();
   const theme = useTheme();
   const isMatch = useMediaQuery(theme.breakpoints.down("md"));
   const navItems = [
-    { label: "home", to: "/" },
-    { label: "about us", to: "/" },
-    { label: "services", to: "/" },
-    { label: "contact", to: "/" },
-    { label: "why us", to: "/" },
-    { label: "consult", to: "/" },
+    { label: "home", to: "#home" },
+    { label: "about us", to: "#about" },
+    { label: "services", to: "#services" },
+    { label: "contact", to: "#contact" },
+    { label: "why us", to: "#why-us" },
+    { label: "consult", to: "#consult" },
   ];
   return (
     <AppBar elevation={1}>
@@ -39,7 +40,7 @@ const Header = () => {
         ) : (
           <Box>
             {navItems.map((item, index) => (
-              <Link to={item.to} key={index} className={classes.linkItem}>
+              <Link to={item.to} key={index} className={classes.linkItem} onClick={() => scrollToSection(item.to.substring(1))}>
                 {item.label}
               </Link>
             ))}

@@ -4,6 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import { Typography, CardActionArea, CardActions } from "@mui/material";
 import { Link } from "react-router-dom";
 import useStyles from "./Services.styles";
+import scrollToSection from "../../utils/scroll";
 
 export default function Service({ icon, serviceName, serviceSummary }) {
   const classes = useStyles();
@@ -26,7 +27,7 @@ export default function Service({ icon, serviceName, serviceSummary }) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Link className={classes.cardServiceCta}>Get consultation</Link>
+        <Link to="#consult" onClick={() => scrollToSection("consult")} className={classes.cardServiceCta}>Get consultation</Link>
       </CardActions>
     </Card>
   );

@@ -46,7 +46,7 @@ export default function Services() {
   return (
     <React.Fragment>
       <Title text="our services" />
-      <section className="services__container">
+      <section className="services__container" id="services">
         {services.map((service, i) => (
           <Service
             item
