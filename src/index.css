@@ -60,6 +60,20 @@ body {
 @media screen and (max-width: 1200px) {
   .about__image {
     width: 40rem;
-    border: 3px solid red;
   }
+}
+
+.services__container {
+  padding: 1rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  justify-items: center;
+  gap: 3rem;
+}
+
+.services__container svg {
+  --size: 6rem;
+  width: var(--size);
+  height: var(--size);
+  fill: #03a9f4;
 }
