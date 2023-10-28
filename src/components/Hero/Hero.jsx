@@ -32,9 +32,8 @@ function Hero() {
       }}
     >
       {items.map((item, i) => (
-        <SplideSlide>
+        <SplideSlide key={i}>
           <HeroItem
-            key={i}
             mainTitle={item.mainTitle}
             subTitle={item.subTitle}
             bgImg={item.bgImg}

@@ -59,11 +59,11 @@ const theme = createTheme({
       fontWeight: "bold",
     },
     h2: {
-      fontSize: "2rem",
+      fontSize: "4rem",
       fontWeight: "bold",
     },
     h3: {
-      fontSize: "1.5rem",
+      fontSize: "2.5rem",
       fontWeight: "bold",
     },
     h4: {
@@ -83,8 +83,8 @@ const theme = createTheme({
       fontWeight: "bold",
     },
     body1: {
-      fontSize: "1rem",
-      lineHeight: "1.037rem",
+      fontSize: "1.7rem",
+      // lineHeight: "1.037rem",
       fontWeight: 400,
     },
     button: {
