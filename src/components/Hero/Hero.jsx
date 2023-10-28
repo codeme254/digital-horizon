@@ -2,6 +2,7 @@ import React from "react";
 import HeroItem from "./HeroItem";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+// https://splidejs.com/integration/react-splide/
 
 import bgImg1 from "../../assets/images/bg-img-1.jpg";
 
