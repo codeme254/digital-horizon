@@ -4,6 +4,7 @@ import Hero from "../../components/Hero/Hero";
 import About from "../../components/About/About";
 import Services from "../../components/Services/Services";
 import Consultation from "../../components/Consultation/Consultation";
+import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Services />
       <Consultation />
+      <Contact />
       <Footer />
     </React.Fragment>
   );
