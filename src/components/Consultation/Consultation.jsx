@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Title from "../Title/Title";
 import { useRef } from "react";
 import { TextField, Grid, Button } from "@mui/material";
@@ -7,21 +7,23 @@ import useStyles from "./Consultation.styles";
 import emailjs from "@emailjs/browser";
 
 export default function Consultation() {
+  const [sendingMail, setIsSendingMail] = useState(false)
   const classes = useStyles();
   const form = useRef();
   const sendEmail = (e) => {
+    setIsSendingMail(true)
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_w0mbag7",
-        "template_szlk8qw",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        "jHO1KBT4CnFgZfX0u",
+        import.meta.env.VITE_EMAILJS_API_KEY,
       )
       .then(
         (result) => {
-          console.log("Attempting to send email");
+          // console.log("Attempting to send email");
           console.log(result.text);
         },
         (error) => {
@@ -29,6 +31,8 @@ export default function Consultation() {
           console.log(error.text);
         },
       );
+
+    setIsSendingMail(false)
   };
   return (
     <React.Fragment>
@@ -97,8 +101,10 @@ export default function Consultation() {
               required
               name="message"
             />
-            <Button variant="contained" type="submit">
-              place order
+            <Button variant="contained" type="submit" disabled={sendingMail}>
+              {
+                sendingMail ? "Submitting Please wait" : "Place Order"
+              }
             </Button>
           </form>
         </Grid>
