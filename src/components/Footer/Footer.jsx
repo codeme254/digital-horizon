@@ -26,7 +26,7 @@ export default function Footer() {
             web development, mobile app creation, CCTV implementation, and more.
           </Typography>
         </Grid>
-        <Grid item xs={12} md={12} lg={2}>
+        <Grid item xs={12} md={12} lg={1}>
           <Typography
             variant="h3"
             textTransform="capitalize"
@@ -42,7 +42,7 @@ export default function Footer() {
           <Link className={classes.footerLink}>contact us</Link>
           <Link className={classes.footerLink}>place order</Link>
         </Grid>
-        <Grid item xs={12} md={12} lg={1}>
+        <Grid item xs={12} md={12} lg={3}>
           <Typography
             variant="h3"
             textTransform="capitalize"
@@ -53,25 +53,34 @@ export default function Footer() {
             services
           </Typography>
           <Typography variant="body1" className={classes.footerText}>
-            Service 1
+            Web design
           </Typography>
           <Typography variant="body1" className={classes.footerText}>
-            Service 1
+            mobile apps development
           </Typography>
           <Typography variant="body1" className={classes.footerText}>
-            Service 1
+            wifi installation
           </Typography>
           <Typography variant="body1" className={classes.footerText}>
-            Service 1
+            CCTV installation
           </Typography>
           <Typography variant="body1" className={classes.footerText}>
-            Service 1
+            web development
           </Typography>
           <Typography variant="body1" className={classes.footerText}>
-            Service 1
+            digital marketing
+          </Typography>
+          <Typography variant="body1" className={classes.footerText}>
+            IT support and maintenance
+          </Typography>
+          <Typography variant="body1" className={classes.footerText}>
+            IT infrastructure management
+          </Typography>
+          <Typography variant="body1" className={classes.footerText}>
+            IT consultation and training
           </Typography>
         </Grid>
-        <Grid item xs={12} md={12} lg={3}>
+        <Grid item xs={12} md={12} lg={2}>
           <Typography
             variant="h3"
             textTransform="capitalize"

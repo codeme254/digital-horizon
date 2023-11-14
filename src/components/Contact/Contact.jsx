@@ -15,12 +15,12 @@ export default function Contact() {
         <ContactElement
           icon={<EmailIcon />}
           contactType="send us an email"
-          contactValue="dhorizon@gmail.com"
+          contactValue="horizondigital17@gmail.com"
         />
         <ContactElement
           icon={<CallIcon />}
           contactType="call us"
-          contactValue="+254712345678"
+          contactValue="+254790262807"
         />
       </Box>
     </React.Fragment>
