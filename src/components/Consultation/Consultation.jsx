@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Title from "../Title/Title";
 import { useRef } from "react";
 import { TextField, Grid, Button } from "@mui/material";
-import formImg from "../../assets/images/bg-img-1.jpg";
+import formImg from "../../assets/images/money.jpg";
 import useStyles from "./Consultation.styles";
 import emailjs from "@emailjs/browser";
 
