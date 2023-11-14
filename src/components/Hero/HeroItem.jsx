@@ -32,8 +32,20 @@ export default function HeroItem({ mainTitle, subTitle, bgImg }) {
           {subTitle}
         </Typography>
         <Box element="section" className={classes.heroCtas}>
-          <Link to="#consult" onClick={() => scrollToSection("consult")} className={classes.heroCtaPri}>Get started</Link>
-          <Link to="#about" onClick={() => scrollToSection("about")} className={classes.heroCtaSec}>Read more</Link>
+          <Link
+            to="#consult"
+            onClick={() => scrollToSection("consult")}
+            className={classes.heroCtaPri}
+          >
+            Get started
+          </Link>
+          <Link
+            to="#about"
+            onClick={() => scrollToSection("about")}
+            className={classes.heroCtaSec}
+          >
+            Read more
+          </Link>
         </Box>
       </Box>
     </Box>

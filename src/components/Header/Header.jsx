@@ -40,7 +40,12 @@ const Header = () => {
         ) : (
           <Box>
             {navItems.map((item, index) => (
-              <Link to={item.to} key={index} className={classes.linkItem} onClick={() => scrollToSection(item.to.substring(1))}>
+              <Link
+                to={item.to}
+                key={index}
+                className={classes.linkItem}
+                onClick={() => scrollToSection(item.to.substring(1))}
+              >
                 {item.label}
               </Link>
             ))}

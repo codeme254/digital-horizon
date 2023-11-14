@@ -9,17 +9,30 @@ import bgImg1 from "../../assets/images/bg-img-1.jpg";
 function Hero() {
   const items = [
     {
-      mainTitle:
-        "We create solutions for your business, come grow your business online with us",
+      mainTitle: "Empowering Your Business Through Innovative Solutions",
       subTitle:
-        "Tempor maecenas. Scelerisque nonummy sodales fringilla, eros hac natoque faucibus. Nam dignissim eleifend. Tempor malesuada erat curabitur integer purus pulvinar nisi sit ",
+        "Transforming challenges into opportunities. Explore our cutting-edge tech solutions for scalable growth and optimized performance.",
       bgImg: bgImg1,
     },
     {
-      mainTitle:
-        "We are committed to building you products that are guaranteed to solve your business problems",
+      mainTitle: "Crafting Tailored Tech Solutions for Your Success",
       subTitle:
-        "Tempor maecenas. Scelerisque nonummy sodales fringilla, eros hac natoque faucibus. Nam dignissim eleifend. Tempor malesuada erat curabitur integer purus pulvinar nisi sit ",
+        "Our expertise lies in understanding your unique needs. Let us design and develop solutions that elevate your business goals",
+    },
+    {
+      mainTitle: "Driving Business Evolution with Advanced Digital Strategies",
+      subTitle:
+        "From concept to implementation, we drive innovation. Discover how our tech prowess enhances your business landscape.",
+    },
+    {
+      mainTitle: "Pioneering Solutions for Your Business Challenges",
+      subTitle:
+        "Facing hurdles? We engineer solutions. Experience our expertise in resolving complex tech challenges.",
+    },
+    {
+      mainTitle: "Building Bridges Between Business and Technology",
+      subTitle:
+        "Bridging the gap between innovation and your business. Empowering growth through tech synergy.",
     },
   ];
   return (

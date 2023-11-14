@@ -21,30 +21,26 @@ export default function About() {
             Who we are and what we do
           </Typography>
           <Typography variant="body1" align="justify" lineHeight={2}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Exercitationem culpa, provident nostrum sapiente rerum laborum
-            distinctio incidunt? Cum placeat labore velit ut commodi molestiae
-            corrupti eum dolores voluptatum doloremque voluptatem atque,
-            reiciendis, cupiditate eos in enim soluta explicabo vero qui
-            aliquam. Nam mollitia modi saepe laboriosam temporibus? Non sequi
-            voluptas est iste autem unde nulla. Molestias quo doloremque,
-            obcaecati ad distinctio excepturi nesciunt. Eum deleniti tempore
-            tempora consequuntur quo vel quae cumque suscipit, esse ea saepe,
-            temporibus, officiis adipisci officia explicabo natus! Libero enim,
-            at, totam iusto quis accusantium minima nisi unde cupiditate
-            praesentium provident tempora fugit, hic aperiam molestiae? Lorem
-            ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem
-            culpa, provident nostrum sapiente rerum laborum distinctio incidunt?
-            Cum placeat labore velit ut commodi molestiae corrupti eum dolores
-            voluptatum doloremque voluptatem atque, reiciendis, cupiditate eos
-            in enim soluta explicabo vero qui aliquam. Nam mollitia modi saepe
-            laboriosam temporibus? Non sequi voluptas est iste autem unde nulla.
-            Molestias quo doloremque, obcaecati ad distinctio excepturi
-            nesciunt. Eum deleniti tempore tempora consequuntur quo vel quae
-            cumque suscipit, esse ea saepe, temporibus, officiis adipisci
-            officia explicabo natus! Libero enim, at, totam iusto quis
-            accusantium minima nisi unde cupiditate praesentium provident
-            tempora fugit, hic aperiam molestiae?
+            At Digital Horizon Solutions, we are catalysts for technological
+            innovation, dedicated to empowering businesses with comprehensive
+            digital solutions. With a focus on excellence, we specialize in
+            delivering a spectrum of IT services including WiFi installation,
+            web development, mobile app creation, CCTV implementation, and more.
+            <br />
+            Our mission is simple: we craft tailored solutions that align with
+            your unique business needs. Whether you're a startup seeking an
+            online presence or an established enterprise aiming for digital
+            transformation, our team of skilled professionals is committed to
+            designing, developing, and implementing strategies that drive growth
+            and efficiency.
+            <br />
+            At Digital Horizon Solutions, client satisfaction is paramount. We
+            prioritize clear communication, collaboration, and a thorough
+            understanding of your objectives to create solutions that exceed
+            expectations. <br />
+            Join us on the journey to navigate the evolving tech landscape.
+            Together, let's leverage the power of technology to propel your
+            business toward success
           </Typography>
         </Grid>
         <Grid item xs={11} sm={11} md={11} lg={5} xl={5}>

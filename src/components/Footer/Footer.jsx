@@ -19,12 +19,11 @@ export default function Footer() {
             Digital Horizon
           </Typography>
           <Typography variant="body1" align="justify" color="white">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consectetur labore dolor deserunt velit harum voluptates! Ullam
-            autem repellat labore accusamus quod rem incidunt aspernatur, error
-            quisquam praesentium neque, fuga accusantium aut, architecto
-            suscipit? Quod quae optio eius at eligendi fugiat corrupti porro
-            molestiae. Commodi voluptates atque officiis,
+            At Digital Horizon Solutions, we are catalysts for technological
+            innovation, dedicated to empowering businesses with comprehensive
+            digital solutions. With a focus on excellence, we specialize in
+            delivering a spectrum of IT services including WiFi installation,
+            web development, mobile app creation, CCTV implementation, and more.
           </Typography>
         </Grid>
         <Grid item xs={12} md={12} lg={2}>
