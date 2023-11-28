@@ -92,3 +92,7 @@ body {
   flex-direction: column;
   gap: 1.5rem;
 }
+
+.submit-button:active{
+  background-color: #03a9f4;
+}

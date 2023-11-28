@@ -21,7 +21,7 @@ const Header = () => {
     { label: "about us", to: "#about" },
     { label: "services", to: "#services" },
     { label: "contact", to: "#contact" },
-    { label: "why us", to: "#why-us" },
+    // { label: "why us", to: "#why-us" },
     { label: "consult", to: "#consult" },
   ];
   return (

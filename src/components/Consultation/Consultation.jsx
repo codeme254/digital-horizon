@@ -24,7 +24,8 @@ export default function Consultation() {
       .then(
         (result) => {
           // console.log("Attempting to send email");
-          console.log(result.text);
+          // console.log(result.text);
+          form.current.reset();
         },
         (error) => {
           console.log("attempting to send email");
@@ -101,7 +102,7 @@ export default function Consultation() {
               required
               name="message"
             />
-            <Button variant="contained" type="submit" disabled={sendingMail}>
+            <Button variant="contained" type="submit" disabled={sendingMail} className="submit-button">
               {
                 sendingMail ? "Submitting Please wait" : "Place Order"
               }
