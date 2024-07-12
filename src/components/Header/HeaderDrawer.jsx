@@ -25,7 +25,7 @@ const HeaderDrawer = ({ linkItems }) => {
       >
         <CssBaseline />
         <Typography variant="h5" className={classes.title}>
-          Digital Horizon Solutions
+          Laser Tech Solutions
         </Typography>
         <Divider />
         <List>
