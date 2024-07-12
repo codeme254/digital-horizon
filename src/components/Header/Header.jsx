@@ -10,6 +10,7 @@ import { useTheme } from "@mui/styles";
 import { Link } from "react-router-dom";
 import useStyles from "./Header.styles";
 import HeaderDrawer from "./HeaderDrawer";
+import logo from '../../assets/images/logo.png'
 import scrollToSection from "../../utils/scroll";
 
 const Header = () => {
@@ -32,7 +33,8 @@ const Header = () => {
         sx={{ background: theme.palette.background.paper }}
       >
         <Link to="/">
-          <Typography variant="h1">Digital Horizon Solutions</Typography>
+          {/* <Typography variant="h1">Digital Horizon Solutions</Typography> */}
+          <img src={logo} alt="logo" style={{ width: '100px'}} />
         </Link>
         {isMatch ? (
           // <AppBarDrawer linkItems={navItems} />
