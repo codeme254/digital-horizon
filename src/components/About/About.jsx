@@ -21,7 +21,7 @@ export default function About() {
             Who we are and what we do
           </Typography>
           <Typography variant="body1" align="justify" lineHeight={2}>
-            At Digital Horizon Solutions, we are catalysts for technological
+            At Laser Tech Solutions, we are catalysts for technological
             innovation, dedicated to empowering businesses with comprehensive
             digital solutions. With a focus on excellence, we specialize in
             delivering a spectrum of IT services including WiFi installation,
@@ -34,7 +34,7 @@ export default function About() {
             designing, developing, and implementing strategies that drive growth
             and efficiency.
             <br />
-            At Digital Horizon Solutions, client satisfaction is paramount. We
+            At Laser Tech Solutions, client satisfaction is paramount. We
             prioritize clear communication, collaboration, and a thorough
             understanding of your objectives to create solutions that exceed
             expectations. <br />

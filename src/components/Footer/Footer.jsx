@@ -16,10 +16,10 @@ export default function Footer() {
             color="white"
             letterSpacing={1.5}
           >
-            Digital Horizon
+            Laser Tech Solutions
           </Typography>
           <Typography variant="body1" align="justify" color="white">
-            At Digital Horizon Solutions, we are catalysts for technological
+            At Laser Tech Solutions, we are catalysts for technological
             innovation, dedicated to empowering businesses with comprehensive
             digital solutions. With a focus on excellence, we specialize in
             delivering a spectrum of IT services including WiFi installation,
@@ -91,10 +91,10 @@ export default function Footer() {
             contact us
           </Typography>
           <Typography variant="body1" className={classes.footerText}>
-            Call: +245712345678
+            Call: +254790262807
           </Typography>
           <Typography variant="body1" className={classes.footerText}>
-            email: dhorizon@gmail.com
+            email: horizondigital17@gmail.com
           </Typography>
         </Grid>
       </Grid>
